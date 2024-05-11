@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color:  #B97375;
+    --secondary-color: #CEB1BE;
+    --text-color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo 2', sans-serif;
+    color: var(--text-color);
+}
+p {
+    font-family: 'Arial', sans-serif;
+    color: #000000
+}
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: large;
+    font-family: "Exo 2", sans-serif;
+}
+body {
+    max-width: 960px;
+    margin: auto;
+}
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 40px;
+    left: auto;
+    text-align: center;
+    background-color: #ceb1be7b;
+    width: 57.5rem;
+    padding: 20px 20px;
+}
+.hero article {
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    text-align: center;
+    background: #b9737589;
+    padding: 15px 15px;
+    width: 50rem;
+}
+
+.hero article img {
+    float: right; /* Flota la imagen del artículo a la derecha */
+    margin-left: 10px; /* Agrega un margen izquierdo para separar la imagen del texto */
+    max-width: 150px;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+section img {
+    display: block;
+}
+.hero article p {
+    color: #ffffff;
+}
+
+
+
+
+
+
