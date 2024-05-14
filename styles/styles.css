@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(234, 240, 236);
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -15,6 +18,13 @@ nav a {
 h1 {
     color: steelblue;
     border-bottom: 2px olivedrab;
+    margin-bottom: 20px;
+}
+hr {
+    background-color: rgb(40, 156, 77);
+    height: 2px;
+    border: 0;
+    margin: 20px 0;
 }
 img {
     width: 150px;
@@ -55,8 +65,8 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
-    background-color: #ff6709;
+    padding: 2rem;
+    background-color: salmon;
     color: #000;
 }
 aside {
@@ -86,7 +96,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: aquamarine;
+    color: rgb(195, 255, 212);
 }
 .grid {
     display: grid;
