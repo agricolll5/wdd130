@@ -65,9 +65,10 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 2rem;
+    padding: 1rem 2rem;
     background-color: salmon;
     color: #000;
+    width: 20rem
 }
 aside {
     width: 20em;
@@ -96,7 +97,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: rgb(195, 255, 212);
+    color: rgb(234, 240, 236);
 }
 .grid {
     display: grid;
