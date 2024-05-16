@@ -1,29 +1,33 @@
-@import url(https://fonts.google.com/share?selection.family=Exo+2:ital,wght@0,100..900;1,100..900);
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    font-weight: 600;
 }
 :root {
     --primary-color: #0E0707;
-    --secondary-color: #CEB1BE;
-    --B97375-color: #B97375;
-
-    --heading-font: 'Exo2', serif;
+    --secondary-color: #ffff;
+    --B97375-color: #434123;
+    --heading-font: 'Exo 2', serif;
     --paragraph-font: 'font-family', serif;
-    --nav-background-color: #CEB1BE;
-    --nav-link-color: #CEB1BE;
-    --nav-hover-link-color: #B97375;
-    --nav-hover-backgroud-color: #593636; 
+    --nav-background-color: #434123;
+    --nav-link-color: #ffff;
+    --nav-hover-link-color: #ffff;
+    --nav-hover-backgroud-color: #434123; 
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
+}
+h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 header {
     padding: 20px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 p {
     padding: 25px;
@@ -42,4 +46,8 @@ nav a{
 nav a:link, nav a:visited {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-backgroud-color);
+}
+.color-paragraph {
+    background-color: #0E0707;
+    color: #ffff;
 }
