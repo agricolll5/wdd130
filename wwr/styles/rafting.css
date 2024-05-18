@@ -18,6 +18,7 @@ nav a {
     color: var(--text-color);
     font-size: large;
     font-family: "Exo 2", sans-serif;
+    display: flex;
 }
 body {
     max-width: 960px;
@@ -35,6 +36,7 @@ body {
     background-color: #ceb1be7b;
     width: 57.5rem;
     padding: 20px 20px;
+    font-family: "Exo 2", sans-serif;
 }
 .hero article {
     position: absolute;
@@ -62,10 +64,89 @@ section img {
     display: block;
 }
 .hero article p {
-    color: #ffffff;
+    color: #fffcfc;
+    font-weight: 800;
+    background-color: #0000005c;
 }
+header {
+	margin: 2rem auto;
+	display: grid;
+	grid-template-columns: 300px 10fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+    font-weight: 700;
+}
+h1 {
+	font-size: 3rem;
+	font-family: Acme, Arial, sans-serif;
+}
+nav {
+    display: flex;
+	text-align: right;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b9737588;
+    padding: 10px;
+}
+.history{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.history h2{
+    text-align: center;
+    width: 100%;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.text-column1 {
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.text-column2 {
+    flex: 1;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.history img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+}
+.adventure h2{
+    text-align: center;
 
-
-
-
-
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pictures img{
+    max-width: 150%; 
+}
+figcaption{
+    margin-left: 8px;
+    font-size: 14px; 
+    color: #666;
+    padding: 10px; 
+}
+ footer {
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+    background-color: aqua;
+ }
+ footer p {
+    padding: 20px 200px;
+    text-align: center;
+ }
