@@ -47,8 +47,8 @@ body {
 }
 
 .hero article img {
-    float: right; /* Flota la imagen del artículo a la derecha */
-    margin-left: 10px; /* Agrega un margen izquierdo para separar la imagen del texto */
+    float: right; 
+    margin-left: 10px;
     max-width: 150px;
     height: auto;
 }
@@ -64,7 +64,6 @@ section img {
 .hero article p {
     color: #ffffff;
 }
-
 
 
 
