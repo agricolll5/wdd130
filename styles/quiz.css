@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Supermercado One";
+    font-size: medium;
+    color: #ffffff;
+    background-color: #eeeeee;
+}
+header{
+    text-align: center;
+    color: #102542;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px;
+}
+form{
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1rem;
+    border-radius: .5rem;
+    display: grid;
+    background-color: #F87060;
+    font-size: larger;
+}
+label{
+    padding: 10px;
+    margin: 10px;
+}
+input, textarea, select{
+    padding: 1rem;
+    font-size: 1.2rem;
+    display: grid;
+    width: 600px;
+    margin-top: 10px;
+}
+button{
+    background-color:#6ba2e1;
+    font-family: "Supermercado One";
+    font-size: large;
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 600px;
+    
+}
+button:hover{
+    background-color: #3fc761;
+}
+p{
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    margin: 10px 60px;
+    padding: 15px;
+}
