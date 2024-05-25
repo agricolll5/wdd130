@@ -243,8 +243,7 @@ figcaption{
  button:hover{
     background-color:rgb(42, 219, 50);
  }
- .options{
-    display: grid;
+.options{
     margin-bottom: 20px;
  }
  
