@@ -376,3 +376,40 @@ thead th{
     font-weight: 700;
     color: #000000;
 }
+.visit{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+}
+.visit a {
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    background-color: #31cb90;
+    color: black;
+}
+.twoimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+.twoimages img{
+    padding: 5px;
+    margin-top: 10px;
+    width: 75%;
+    padding: 15px;
+    border: 3px solid gray;
+}
+.text-container h1, h2{
+    font-size: 35px;
+    font-family:"Exo 2", sans-serif;
+}
+.text-container p, ul{
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
